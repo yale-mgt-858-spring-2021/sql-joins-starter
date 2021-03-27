@@ -17,22 +17,6 @@ you can use the default sort for the table.
 
 We suggest you complete the questions in the following order
 
-- [ ] all_orders
-- [ ] all_orders_order
-- [ ] all_orders_order_between
-- [ ] count_state_shipping
-- [ ] count_state_shipping_optimized
-- [ ] total_units
-- [ ] total_units_alias
-- [ ] purchases_items_order
-- [ ] purchases_items_order_limit
-- [ ] email_left_join
-- [ ] join_coupon
-- [ ] join_coupon_december
-- [ ] join_max_min
-- [ ] join_sum_zip
-- [ ] join_personalized_message
-- [ ] join_three_inner
 
 
 As you complete questions, you can mark them as complete
