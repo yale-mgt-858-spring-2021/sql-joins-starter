@@ -1,10 +1,9 @@
-We would like to know how many pending items we have per state (like CA, CT, etc.).
-To figure that out,
-you'll need to `JOIN` the
-`purchase_items` and `purchases` tables, then
-`GROUP` by `purchase_items.state`
-and `purchases.state`.
-You might find the following SQL constructs useful in your answer: `JOIN`, `ON`, `COUNT`, `GROUP BY`.
+We would like to know how many pending items we have per state (e.g., CA, CT, etc.).
+
+To figure that out, you'll need to `JOIN` the `purchase_items` and `purchases` tables, then
+`GROUP BY` `purchases.state`. Limit your query where `purchase_items.state` equal `'Pending'`
+
+You might find the following SQL constructs useful in your answer: `JOIN`, `ON`, `COUNT`, `GROUP BY`, `WHERE`
 
 Your results should look something like this:
 ```
