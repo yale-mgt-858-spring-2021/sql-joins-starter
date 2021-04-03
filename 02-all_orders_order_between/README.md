@@ -1,4 +1,5 @@
-(This is the same as the previous question except it requires sorting.)
+(This is the same as the previous question except it requires limiting results
+between certain values.)
 A management report requires us to list certain purchase information
 along with the email address of the user making the purchase. Please
 `JOIN` the `purchases` table with the `users` table to produce an 
@@ -12,7 +13,7 @@ output table containing
 We're interested only in purchases with `id` between 100 and 200 (inclusive)
 and we'd like the results sorted
 ascending order by purchase `id`.
-You might find the following SQL constructs useful in your answer: `JOIN`, `ON`, `ORDER BY`, `ASC`, `BETWEEN`.
+You might find the following SQL constructs useful in your answer: `JOIN`, `ON`, `ORDER BY`, `ASC`, `WHERE`, `BETWEEN`.
 
 Your results should look something like this:
 ```
