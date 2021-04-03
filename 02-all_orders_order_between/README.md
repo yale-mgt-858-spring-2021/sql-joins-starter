@@ -17,11 +17,13 @@ You might find the following SQL constructs useful in your answer: `JOIN`, `ON`,
 
 Your results should look something like this:
 ```
-│ id  │        name          │        address         │ state │ zipcode │            email              │
-├─────┼──────────────────────┼────────────────────────┼───────┼─────────┼───────────────────────────────┤
-│ 100 │ Rubie Wassink        │ 4864 10th Ave.         │ CO    │   35894 │ Romaine.Birdsell@aol.com      │
-│ 101 │ Mauro Kimball        │ 465 50th Ave.          │ VA    │   31809 │ Earlean.Bonacci@yahoo.com     │
-│ 102 │ Collin Julian        │ 563 MLK Ave.           │ SC    │   21495 │ Shanell.Lichtenstein@aol.com  │
-│ 103 │ Berta Slone          │ 9457 46th Ave.         │ VA    │   66128 │ Takako.Gilpatrick@aol.com     │
+│ purchase_id │        name          │        address         │ state │ zipcode │            email              │
+├─────────────┼──────────────────────┼────────────────────────┼───────┼─────────┼───────────────────────────────┤
+│         100 │ Rubie Wassink        │ 4864 10th Ave.         │ CO    │   35894 │ Romaine.Birdsell@aol.com      │
+│         101 │ Mauro Kimball        │ 465 50th Ave.          │ VA    │   31809 │ Earlean.Bonacci@yahoo.com     │
+│         102 │ Collin Julian        │ 563 MLK Ave.           │ SC    │   21495 │ Shanell.Lichtenstein@aol.com  │
+│         103 │ Berta Slone          │ 9457 46th Ave.         │ VA    │   66128 │ Takako.Gilpatrick@aol.com     │
+│         104 │ Jame Bonacci         │ 3015 8th Ave.          │ VA    │   75126 │ Danny.Crays@gmail.com         │
+│         105 │ Jenee Crays          │ 3679 43rd St.          │ WY    │   93895 │ Eve.Kump@yahoo.com            │
 (...)
 ```

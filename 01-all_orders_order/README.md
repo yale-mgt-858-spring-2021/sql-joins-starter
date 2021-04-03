@@ -14,12 +14,12 @@ You might find the following SQL constructs useful in your answer: `JOIN`, `ON`,
 
 Your results should look something like as follows:
 ```
-│  id  │         name           │        address         │ state │ zipcode │            email              │
-├──────┼────────────────────────┼────────────────────────┼───────┼─────────┼───────────────────────────────┤
-│  185 │ Kristofer Morejon      │ 8541 10th Ave.         │ CO    │   49772 │ Derek.Crenshaw@gmail.com      │
-│  100 │ Rubie Wassink          │ 4864 10th Ave.         │ CO    │   35894 │ Romaine.Birdsell@aol.com      │
-│  160 │ Keri Puett             │ 4652 8th Ave.          │ CO    │   72241 │ Sherilyn.Hamill@gmail.com     │
-│  154 │ Cammy Halpin           │ 3778 45th St.          │ CO    │   80611 │ Tonette.Alba@gmail.com        │
-│  153 │ Harley Kimball         │ 3157 44th Ave.         │ CO    │   36878 │ Sherilyn.Hamill@gmail.com     │
-
+│ purchase_id │         name           │        address         │ state │ zipcode │            email              │
+├─────────────┼────────────────────────┼────────────────────────┼───────┼─────────┼───────────────────────────────┤
+│         185 │ Kristofer Morejon      │ 8541 10th Ave.         │ CO    │   49772 │ Derek.Crenshaw@gmail.com      │
+│         100 │ Rubie Wassink          │ 4864 10th Ave.         │ CO    │   35894 │ Romaine.Birdsell@aol.com      │
+│         160 │ Keri Puett             │ 4652 8th Ave.          │ CO    │   72241 │ Sherilyn.Hamill@gmail.com     │
+│         154 │ Cammy Halpin           │ 3778 45th St.          │ CO    │   80611 │ Tonette.Alba@gmail.com        │
+│         153 │ Harley Kimball         │ 3157 44th Ave.         │ CO    │   36878 │ Sherilyn.Hamill@gmail.com     │
+(...)
 ```
