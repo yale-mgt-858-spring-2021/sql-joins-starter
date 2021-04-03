@@ -1,12 +1,12 @@
 A `purchase_items` row must have a `state` that is one of three values:
 Pending, Delivered, or Returned. We'd like to know for each U.S. state
-(like VA, CA, or CT) how many purchase_items are in each state. (Sorry
-that the term "state" is used in two different ways! 🙃)
-Please `COUNT` the number of orders that we have in each state for each
+(like VA, CA, or CT) how many purchase_items are in each state. (The term 
+"state" in this database has two different meanings: a U.S. state and an item status! 🙃)
+Please `COUNT` the number of orders that we have in each item state for each
 U.S. state 😉. Order the results ascending by U.S. state first and
-`purchase_items` state second. You *do not* need to show rows that
-have a zero count. For example, if CT has zero items in a state
-of "Pending" you do not need to show a row for that.
+`purchase_items` state second. 
+
+Please name your columns as `state`, `item_state`, and `count`, respectively.
 
 You might find the following SQL constructs useful in your answer: `JOIN`,
 `ON`, `COUNT`, `GROUP`.
