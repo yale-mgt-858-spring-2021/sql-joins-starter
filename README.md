@@ -23,16 +23,10 @@ We suggest you complete the questions in the following order
 - [ ] 03-count_state_shipping
 - [ ] 04-count_state_shipping_optimized
 - [ ] 05-total_units
-- [ ] 06-total_units_alias
-- [ ] 07-purchases_items_order
-- [ ] 08-purchases_items_order_limit
-- [ ] 09-email_left_join
-- [ ] 10-join_coupon
-- [ ] 11-join_coupon_december
-- [ ] 12-join_max_min
-- [ ] 13-join_sum_zip
-- [ ] 14-join_personalized_message
-- [ ] 15-join_three_inner
+- [ ] 06-join_coupon
+- [ ] 07-big_spenders
+- [ ] 08-reactivation
+- [ ] 09-most_sold_item
 
 
 As you complete questions, you can mark them as complete

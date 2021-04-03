@@ -14,12 +14,13 @@ and we'd like the results sorted
 ascending order by purchase `id`.
 You might find the following SQL constructs useful in your answer: `JOIN`, `ON`, `ORDER BY`, `ASC`, `BETWEEN`.
 
-Your results should look something like this (these might not be correct results)
+Your results should look something like this:
 ```
-    id  |          name        |        address         | state | zipcode |             email             
---------+----------------------+------------------------+-------+---------+-------------------------------
-    100 | Rubie Wassink        | 4864 10th Ave.         | CO    |   35894 | Romaine.Birdsell@aol.com
-    101 | Mauro Kimball        | 465 50th Ave.          | VA    |   31809 | Earlean.Bonacci@yahoo.com
-    102 | Collin Julian        | 563 MLK Ave.           | SC    |   21495 | Shanell.Lichtenstein@aol.com
-    103 | Berta Slone          | 9457 46th Ave.         | VA    |   66128 | Takako.Gilpatrick@aol.com
+│ id  │        name          │        address         │ state │ zipcode │            email              │
+├─────┼──────────────────────┼────────────────────────┼───────┼─────────┼───────────────────────────────┤
+│ 100 │ Rubie Wassink        │ 4864 10th Ave.         │ CO    │   35894 │ Romaine.Birdsell@aol.com      │
+│ 101 │ Mauro Kimball        │ 465 50th Ave.          │ VA    │   31809 │ Earlean.Bonacci@yahoo.com     │
+│ 102 │ Collin Julian        │ 563 MLK Ave.           │ SC    │   21495 │ Shanell.Lichtenstein@aol.com  │
+│ 103 │ Berta Slone          │ 9457 46th Ave.         │ VA    │   66128 │ Takako.Gilpatrick@aol.com     │
+(...)
 ```

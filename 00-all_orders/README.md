@@ -10,12 +10,16 @@ output table containing
 `users.email`.
 You might find the following SQL constructs useful in your answer: `JOIN`, `ON`.
 
-Your results should look something like this (these might not be correct results)
+Your results should look something like this:
+-
 ```
-  id  |          name          |        address         | state | zipcode |             email             
-------+------------------------+------------------------+-------+---------+-------------------------------
-    1 | Harrison Jonson        | 6425 43rd St.          | FL    |   50382 | Quinton.Gilpatrick@yahoo.com
-    2 | Cortney Fontanilla     | 321 MLK Ave.           | WA    |   43895 | Salvatore.Arends@aol.com
-    3 | Ruthie Vashon          | 2307 45th St.          | GA    |   98937 | Ozella.Yoshimura@gmail.com
-    4 | Isabel Wynn            | 7046 10th Ave.         | NY    |   57243 | Shanell.Lichtenstein@aol.com
+│  id  │         name           │        address         │ state │ zipcode │            email              │
+├──────┼────────────────────────┼────────────────────────┼───────┼─────────┼───────────────────────────────┤
+│    1 │ Harrison Jonson        │ 6425 43rd St.          │ FL    │   50382 │ Quinton.Gilpatrick@yahoo.com  │
+│    2 │ Cortney Fontanilla     │ 321 MLK Ave.           │ WA    │   43895 │ Salvatore.Arends@aol.com      │
+│    3 │ Ruthie Vashon          │ 2307 45th St.          │ GA    │   98937 │ Ozella.Yoshimura@gmail.com    │
+│    4 │ Isabel Wynn            │ 7046 10th Ave.         │ NY    │   57243 │ Shanell.Lichtenstein@aol.com  │
+│    5 │ Shari Dutra            │ 4046 8th Ave.          │ FL    │   61539 │ Claud.Westmoreland@aol.com    │
+│    6 │ Kristofer Galvez       │ 2545 8th Ave.          │ WA    │   83868 │ Sherilyn.Hamill@gmail.com     │
+(...)
 ```
