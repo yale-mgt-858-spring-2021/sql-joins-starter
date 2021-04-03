@@ -1,3 +1,11 @@
+In this assignment, we will be working with the `gift_store` schema
+which contains the following tables: `purchase_items`, `products`
+`purchases`, and `users`
+
+You are an employee at the gift store that maintains this database.
+Management has an upcoming meeting and wants us to conduct a few
+analyses. 
+
 A management report requires us to list certain purchase information
 along with the email address of the user making the purchase. Please
 `JOIN` the `purchases` table with the `users` table to produce an 
