@@ -1,4 +1,12 @@
-What are the top ten best selling items by number of units purchased total?
+We would like to determine what items are the top ten best selling at the gift store. 
+
+Please write a query that returns a product’s id, title, and the total quantity of 
+that product sold (again, we will leave it to you to determine the relevant tables 🤪)
+
+Please name your columns `product_id`, `product_title`, and `sum`, respectively. 
+
+You might find the following SQL constructs useful in your answer: `JOIN`, `SUM`, `LIMIT`
+
 
 Your results should look something like this:
 ```
