@@ -8,7 +8,6 @@ To do this, JOIN the `purchase_items` table with the `products` table and return
 
 You might find the following SQL constructs useful in your 
 answer: `JOIN`, `SUM`, and `GROUP BY`
-
   
 Your results should look something like this:
 ```

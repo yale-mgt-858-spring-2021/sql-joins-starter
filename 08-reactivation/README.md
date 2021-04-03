@@ -10,7 +10,13 @@ the number of purchases that customer has made, and the date of that customer’
 
 Please name your columns `email`,`num_purchases`, and `lastest_purchase`, respectively.
 
-You might find the following SQL constructs useful in your answer: `JOIN`, `MAX`, `HAVING`, `NOT BETWEEN`
+You might find the following SQL constructs useful in your answer: `JOIN`, `MAX`, `HAVING`, `NOT BETWEEN`.
+And, for the `WHERE/HAVING` filter on the date, you might use something like 
+`'2020-01-01'::date - '1 month'::interval`, which is what we use in the answer key 😎.
+The `::` syntax is the PostgreSQL way to "cast" or "coerce" one variable type
+to another. It's particularly useful with "intervals", so you can do stuff
+like `'3 weeks'::interval` or `'5.6 hours'::interval` and then add or subtract it
+to a date.
 
 Your results should look something like this:
 ```
