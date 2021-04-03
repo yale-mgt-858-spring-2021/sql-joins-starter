@@ -1,16 +1,11 @@
 # 
 
 In this assignment you will practice SQL queries that use `JOIN`
-to join multiple tables.
-Please
-check the "secrets" section of your class profile to
-find the authentication parameters you will need to 
-connect to the database. You can connect to the database
-using any PostgreSQL client you wish. When you are satisfied
-with you answer to each question, you will need to paste
-it in, below. The questions are as follows.
-Unless otherwise specified
-you can use the default sort for the table.
+to join multiple tables. You connect to the class database just
+like you did in the previous assignment. 
+When you're ready to start, [accept this GitHub Classroom invite](https://classroom.github.com/a/3vPt80gS)
+and paste your repo URL below. Then you can push to GitHub up 
+until the deadline. Don't be shy about asking for help in Slack.
 
 
 ## Suggested order
