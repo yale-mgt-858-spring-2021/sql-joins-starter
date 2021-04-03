@@ -1,10 +1,16 @@
+Imagine that today’s date is January 1, 2021 (‘2020-01-01’). 
 
-Ok, we want to reactivate some of our customers that have gone dormant.
-For this analysis, I want you to imagine that the date is '2020-01-01',
-that is the first of Jan, 2021 (before the dark time...that's roughly
-when these purchase data end).  Please find all customers who have made
-more than 20 purchases from our store but haven't purchased anything in
-the last month (one month before 2020-01-01). 
+We would like to conduct a quick analysis to determine which 
+of our customers have made more than 20 purchases from the gift store 
+but did not purchase anything in December 2020 (i.e., within the last month). 
+
+Write a query that returns the customer’s email, 
+the number of purchases that customer has made, and the date of that customer’s last purchase 
+(i.e., `JOIN` the `users` table and the `purchases` table). 
+
+Please name your columns `email`,`num_purchases`, and `lastest_purchase`, respectively.
+
+You might find the following SQL constructs useful in your answer: `JOIN`, `MAX`, `HAVING`, `NOT BETWEEN`
 
 Your results should look something like this:
 ```
