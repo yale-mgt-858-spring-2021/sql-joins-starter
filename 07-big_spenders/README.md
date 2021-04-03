@@ -1,7 +1,12 @@
+Please make a list of customer emails for customers that have spent more than $10,000 in the gift store 
+(i.e., greater than $10,000). To do this, you’ll need to join *three* tables in the gift_store schema 
+(now that you are familiar with this database, we'll let you determine what tables are relevant 😎).
 
-Please make a list of the customers (by email address in the `users`
-table) that have spent more than $10000 in our store.  You'll likely want
-to use the `HAVING` clause.  Sort them by decreasing net spend.
+For this query, remember that revenue (or spend) equals price * quantity 💰.
+
+You might find the following SQL constructs useful in your answer: `JOIN`, `ON`, `SUM`, `HAVING`
+
+Please name your columns `email` and `net_spend`, respectively.
 
 Your results should look something like this:
 ```
