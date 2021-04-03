@@ -1,7 +1,8 @@
 We would like to send a coupon by email to all our customers that have made 
 at least 25 purchases in our store. Please write a query that shows customers’ emails 
 and the number of purchases that particular customer has made. Your query should 
-only return customers who have made 25 or more orders. 
+only return customers who have made 25 or more orders. Sort by descending number
+of purchases.
 
 To do this, JOIN the `users` table and the `purchases` table. Please name your columns `email` and `num_purchases`, 
 respectively.

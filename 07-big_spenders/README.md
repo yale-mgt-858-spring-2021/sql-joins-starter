@@ -1,6 +1,7 @@
 Please make a list of customer emails for customers that have spent more than $10,000 in the gift store 
 (i.e., greater than $10,000). To do this, you’ll need to join *three* tables in the gift_store schema 
 (now that you are familiar with this database, we'll let you determine what tables are relevant 😎).
+Please sort in descending order of net spend.
 
 For this query, remember that revenue (or spend) equals price * quantity 💰.
 
