@@ -1,8 +1,14 @@
-Please, find out how many units of each product have been sold.  Get the
-title of each of them and the total number of sales.  Note: you should
-bring data from two tables: `gift_store.products` and
-`gift_store.purchase_items`.  You might find the following SQL constructs
-useful in your answer: `JOIN`, `ON`, `SUM`, `GROUP BY 1`.
+What is the quantity of items sold by product title? 
+
+Write a query that returns the title of each product and the 
+total quantity of sales for that product. 
+
+To do this, JOIN the `purchase_items` table with the `products` table and return the relevant columns 
+(call your columns product and units_sold, respectively). 
+
+You might find the following SQL constructs useful in your 
+answer: `JOIN`, `SUM`, and `GROUP BY`
+
   
 Your results should look something like this:
 ```
