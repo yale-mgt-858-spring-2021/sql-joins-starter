@@ -1,5 +1,12 @@
-We would like to send a coupon by email to all our customers that have made at least 25 purchases in our store. 
-Please show those customers in descending order of number of purchases.
+We would like to send a coupon by email to all our customers that have made 
+at least 25 purchases in our store. Please write a query that shows customers’ emails 
+and the number of purchases that particular customer has made. Your query should 
+only return customers who have made 25 or more orders. 
+
+To do this, JOIN the `users` table and the `purchases` table. Please name your columns `email` and `num_purchases`, 
+respectively.
+
+You might find the following SQL constructs useful in your answer: `JOIN`, `COUNT`, `HAVING`
 
 Your results should look something like this:
 ```
