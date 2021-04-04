@@ -55,6 +55,9 @@ should be
 **Question 9 `most_sold_item`** - this is very similar to question 5 `total_units`.
 I wish I could say that was pedagogical 🤣.
 
+**Question 7 `big_spenders`** - Russ.Mcclain was missing from the
+bottom of the table. He spent 10128.68.
+
 
 ## Suggested order
 

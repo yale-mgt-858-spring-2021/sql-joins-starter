@@ -21,4 +21,5 @@ Your results should look something like this:
 │ Ozella.Roles@gmail.com     │  11525.50 │
 │ Zita.Luman@yahoo.com       │  10397.50 │
 │ Shanell.Maxson@gmail.com   │  10228.71 │
+│ Russ.Mcclain@yahoo.com     │  10128.68 │
 ```
