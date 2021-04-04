@@ -7,6 +7,54 @@ When you're ready to start, [accept this GitHub Classroom invite](https://classr
 and paste your repo URL below. Then you can push to GitHub up 
 until the deadline. Don't be shy about asking for help in Slack.
 
+❗❗❗Notice❗❗❗ - some people started the assignment lickety
+split ...usually people most advanced and they pointed out some
+problems in the problem set. As they've pointed these out, I
+corrected them in the starter code. I'm keeping a journal of those
+changes here. 
+
+**Question 4 `count_state_shipping_optimized`** - needs to be sorted. 
+
+**Question 3 `count_state_shipping`**. I had the wrong results shown.
+The results you should get are 
+
+```
+│ state │ num_items_pending │
+├───────┼───────────────────┤
+│ WY    │                 7 │
+│ CO    │                10 │
+│ TX    │                10 │
+│ FL    │                10 │
+│ SC    │                11 │
+│ IL    │                 3 │
+│ VA    │                 8 │
+│ GA    │                 8 │
+│ NY    │                 6 │
+│ WA    │                 6 │
+```
+
+**Question 4 for `count_state_shipping_optimized`**, the example results
+should be 
+
+```
+│ CO    │ Delivered  │   112 │
+│ CO    │ Pending    │    10 │
+│ CO    │ Returned   │    11 │
+│ FL    │ Delivered  │   152 │
+│ FL    │ Pending    │    10 │
+│ FL    │ Returned   │    11 │
+│ GA    │ Delivered  │   129 │
+│ GA    │ Pending    │     8 │
+│ GA    │ Returned   │     3 │
+│ IL    │ Delivered  │   104 │
+(...)
+```
+
+**Question 7 `big_spenders`** - needs to be sorted.
+
+**Question 9 `most_sold_item`** - this is very similar to question 5 `total_units`.
+I wish I could say that was pedagogical 🤣.
+
 
 ## Suggested order
 

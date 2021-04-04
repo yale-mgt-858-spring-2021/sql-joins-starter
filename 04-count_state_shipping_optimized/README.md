@@ -15,16 +15,15 @@ Your results should look something like this:
 ```
 │ state │ item_state │ count │
 ├───────┼────────────┼───────┤
-│ CO    │ Delivered  │    89 │
-│ CO    │ Pending    │     4 │
-│ CO    │ Returned   │     5 │
-│ FL    │ Delivered  │    98 │
-│ FL    │ Pending    │     5 │
-│ FL    │ Returned   │     7 │
-│ GA    │ Delivered  │    86 │
-│ GA    │ Pending    │     4 │
-│ GA    │ Returned   │     6 │
-│ IL    │ Delivered  │    81 │
-│ IL    │ Pending    │     3 │
+│ CO    │ Delivered  │   112 │
+│ CO    │ Pending    │    10 │
+│ CO    │ Returned   │    11 │
+│ FL    │ Delivered  │   152 │
+│ FL    │ Pending    │    10 │
+│ FL    │ Returned   │    11 │
+│ GA    │ Delivered  │   129 │
+│ GA    │ Pending    │     8 │
+│ GA    │ Returned   │     3 │
+│ IL    │ Delivered  │   104 │
 (...)
 ```

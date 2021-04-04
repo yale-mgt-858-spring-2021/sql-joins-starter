@@ -9,15 +9,15 @@ Your results should look something like this:
 ```
 │ state │ num_items_pending │
 ├───────┼───────────────────┤
-│ WY    │                 3 │
-│ TX    │                 3 │
-│ FL    │                 5 │
-│ CO    │                 4 │
-│ SC    │                 8 │
+│ WY    │                 7 │
+│ CO    │                10 │
+│ TX    │                10 │
+│ FL    │                10 │
+│ SC    │                11 │
 │ IL    │                 3 │
 │ VA    │                 8 │
-│ WA    │                 4 │
-│ GA    │                 4 │
-│ NY    │                 5 │
+│ GA    │                 8 │
+│ NY    │                 6 │
+│ WA    │                 6 │
 (...)
 ```
