@@ -11,15 +11,16 @@ You might find the following SQL constructs useful in your answer: `JOIN`, `COUN
 
 Your results should look something like this:
 ```
-│           email            │ num_purchases │
-├────────────────────────────┼───────────────┤
-│ Gudrun.Arends@gmail.com    │            30 │
-│ Samatha.Hedgpeth@yahoo.com │            29 │
-│ Romaine.Birdsell@aol.com   │            29 │
-│ Derek.Crenshaw@gmail.com   │            27 │
-│ Evelyn.Patnode@gmail.com   │            26 │
-│ Zita.Breeding@gmail.com    │            26 │
+│             email             │ num_purchases │
+├───────────────────────────────┼───────────────┤
+│ Gudrun.Arends@gmail.com       │            30 │
+│ Samatha.Hedgpeth@yahoo.com    │            29 │
+│ Romaine.Birdsell@aol.com      │            29 │
+│ Derek.Crenshaw@gmail.com      │            27 │
+│ Evelyn.Patnode@gmail.com      │            26 │
+│ Zita.Breeding@gmail.com       │            26 │
 │ Stacia.Schrack@aol.com        │            25 │
 │ Vivian.Westmoreland@yahoo.com │            25 │
 │ Granville.Hedgpeth@gmail.com  │            25 │
+
 ```
