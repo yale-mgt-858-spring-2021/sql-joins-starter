@@ -58,6 +58,10 @@ I wish I could say that was pedagogical 🤣.
 **Question 7 `big_spenders`** - Russ.Mcclain was missing from the
 bottom of the table. He spent 10128.68.
 
+**Question 6 `join_coupon`** - Was missing a few rows in the example
+output. Example output should have people with 25 purchases but
+not 24. That is, greater than or equal to 25.
+
 
 ## Suggested order
 
