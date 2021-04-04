@@ -19,4 +19,7 @@ Your results should look something like this:
 │ Derek.Crenshaw@gmail.com   │            27 │
 │ Evelyn.Patnode@gmail.com   │            26 │
 │ Zita.Breeding@gmail.com    │            26 │
+│ Stacia.Schrack@aol.com        │            25 │
+│ Vivian.Westmoreland@yahoo.com │            25 │
+│ Granville.Hedgpeth@gmail.com  │            25 │
 ```
