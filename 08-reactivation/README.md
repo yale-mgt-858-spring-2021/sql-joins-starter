@@ -1,4 +1,4 @@
-Imagine that today’s date is January 1, 2021 (‘2020-01-01’). 
+Imagine that today’s date is January 1, 2020 (‘2020-01-01’). 
 
 We would like to conduct a quick analysis to determine which 
 of our customers have made more than 20 purchases from the gift store 

@@ -62,6 +62,9 @@ bottom of the table. He spent 10128.68.
 output. Example output should have people with 25 purchases but
 not 24. That is, greater than or equal to 25.
 
+**Question 8** - fixed date inconsistency. You should assume 
+it is 2020, not 2021.
+
 
 ## Suggested order
 
